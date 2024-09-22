@@ -1,0 +1,66 @@
+.promo-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  position: relative;
+}
+
+/* Banner.css */
+
+.ngo-button,
+.resell-button {
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  position: absolute;
+  right: 45px;
+}
+
+.ngo-button {
+  top: 70px;
+}
+
+.resell-button {
+  top: 150px; ; /* Adjusted to be below the ngo-button */
+}
+
+.ngo-button:hover,
+.resell-button:hover {
+  background-color: #D2B48C;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.ngo-button:active,
+.resell-button:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .ngo-button,
+  .resell-button {
+      font-size: 1.5rem;
+      padding: 1rem 1rem;
+  }
+}
